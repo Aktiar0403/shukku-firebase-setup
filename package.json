@@ -1,0 +1,15 @@
+{
+  "name": "shukku-firebase-setup",
+  "version": "1.0.0",
+  "description": "One-click Firebase setup for Shukku List - Giash & Rina",
+  "type": "module",
+  "scripts": {
+    "setup": "node api/setup.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
